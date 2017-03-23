@@ -983,6 +983,9 @@ p {
 #fh5co-contact {
   padding: 7em 0;
 }
+#fh5co-contact p{
+  text-align: justify;
+}
 @media screen and (max-width: 768px) {
   #fh5co-contact {
     padding: 5em 0;
