@@ -538,30 +538,32 @@
 					</div>
 					<div class="col-md-6 to-animate-2">
 						<h3>Formulario de contacto</h3>
-						<div class="form-group ">
-						<label for="name" class="sr-only">Nombre</label>
-							<input id="name" class="form-control" placeholder="Nombre" type="text">
-						</div>
-						<div class="form-group ">
-							<label for="email" class="sr-only">Correo</label>
-							<input id="email" class="form-control" placeholder="Correo" type="email">
-						</div>
-						<div class="form-group">
-							<label for="occation" class="sr-only">Opcion</label>
-							<select class="form-control" id="occation">
-								<option>Elija una Opción</option>
-								<option>Comentarios</option>
-								<option>Sugerencias</option>
-								<option>Otro</option>
-							</select>
-						</div>
-						<div class="form-group ">
-							<label for="message" class="sr-only">Mensaje</label>
-							<textarea name="" id="message" cols="30" rows="5" class="form-control" placeholder="Mensaje"></textarea>
-						</div>
-						<div class="form-group ">
-							<input class="btn btn-primary" value="Enviar Mensaje" type="submit">
-						</div>
+						<form method="post" action="contact.php">
+							<div class="form-group ">
+							<label for="name" class="sr-only">Nombre</label>
+								<input id="name" class="form-control" placeholder="Nombre" type="text">
+							</div>
+							<div class="form-group ">
+								<label for="email" class="sr-only">Correo</label>
+								<input id="email" class="form-control" placeholder="Correo" type="email">
+							</div>
+							<!-- <div class="form-group">
+								<label for="occation" class="sr-only">Opcion</label>
+								<select class="form-control" id="occation">
+									<option>Elija una Opción</option>
+									<option>Comentarios</option>
+									<option>Sugerencias</option>
+									<option>Otro</option>
+								</select>
+							</div> -->
+							<div class="form-group ">
+								<label for="message" class="sr-only">Mensaje</label>
+								<textarea name="" id="message" cols="30" rows="5" class="form-control" placeholder="Mensaje"></textarea>
+							</div>
+							<div class="form-group ">
+								<input class="btn btn-primary" name="submit" value="Enviar Mensaje" type="submit">
+							</div>
+						</form>
 					</div>
 				</div>
 				</div>
