@@ -983,6 +983,12 @@ p {
 #fh5co-contact {
   padding: 7em 0;
 }
+#fh5co-contact p{
+  text-align: justify;
+}
+#fh5co-contact .text-center {
+  text-align: center;
+}
 @media screen and (max-width: 768px) {
   #fh5co-contact {
     padding: 5em 0;
@@ -1048,7 +1054,7 @@ p {
 #fh5co-footer {
   width: 100%;
   background: rgba(0, 0, 0, 0.9);
-  padding: 7em 0;
+  padding: 4em 0;
   z-index: 1;
   font-size: 14px;
   line-height: 1.5;
