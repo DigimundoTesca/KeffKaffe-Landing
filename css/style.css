@@ -17,13 +17,13 @@ body.fh5co-overflow {
 }
 
 a {
-  color: #0720AB;
+  color: #016B9E;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:focus, a:active {
-  color: #016B9E;
+  color: #0720AB;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1285,6 +1285,7 @@ p {
   background-color: transparent;
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   position: relative;
 }
 #fh5co-type > .fh5co-overlay {
