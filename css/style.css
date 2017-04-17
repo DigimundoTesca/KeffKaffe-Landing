@@ -1361,4 +1361,14 @@ p {
   padding-bottom: 40px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*Pop up*/
+#bio_ep {
+      display: block; /*Quitar*/
+      width: 30%;
+      height: 45%;
+      text-align: center;
+      background: url('../images/popbck.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: blue;
+    }
