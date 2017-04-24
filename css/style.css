@@ -1361,4 +1361,12 @@ p {
   padding-bottom: 40px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*Pop up*/
+#bio_ep {
+      width: 40%;
+      height: 70%;
+      text-align: center;
+      background: url('../images/popbck.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
